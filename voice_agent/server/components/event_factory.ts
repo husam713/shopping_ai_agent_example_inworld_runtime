@@ -46,16 +46,6 @@ export class EventFactory {
     };
   }
 
-  static shoppingData(shopping_data: any, interactionId: string) {
-    return {
-      type: 'SHOPPING_DATA',
-      shopping_data: shopping_data,
-      date: new Date(),
-      packetId: { interactionId },
-      routing: { source: { isAgent: true } },
-    };
-  }
-
   static interrupt(interactionId: string) {
     return {
       type: 'INTERRUPT',
