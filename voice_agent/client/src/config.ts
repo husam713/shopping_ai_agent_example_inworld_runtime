@@ -2,12 +2,12 @@
 const PORT = import.meta.env.VITE_APP_PORT || '4000';
 
 // Cloud URL
-const BASE_URL = `https://${PORT}-01k0ctbv043p7fwm28bh5mfve4.cloudspaces.litng.ai`;
-const WS_BASE_URL = `wss://${PORT}-01k0ctbv043p7fwm28bh5mfve4.cloudspaces.litng.ai`;
+//const BASE_URL = `https://${PORT}-01k0ctbv043p7fwm28bh5mfve4.cloudspaces.litng.ai`;
+//const WS_BASE_URL = `wss://${PORT}-01k0ctbv043p7fwm28bh5mfve4.cloudspaces.litng.ai`;
 
 // Local URL
-// const BASE_URL = `http://localhost:${PORT}`;
-// const WS_BASE_URL = `ws://localhost:${PORT}`;
+const BASE_URL = `http://localhost:${PORT}`;
+const WS_BASE_URL = `ws://localhost:${PORT}`;
 
 export const config = {
   BASE_URL,
